@@ -1,0 +1,74 @@
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      <div class="container-fluid table table-bordered table-hover table-inverse">
+        <div class="row">
+          <div class="col">
+            <form class="table-hover table-inverse">
+              <h1>The Art Gallery</h1>
+              <div class="form-group">
+                <label for="formGroupExampleInput">First Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput"  ng-model="artistForm.firstName" placeholder="Example input">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Last Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" ng-model="artistForm.lastName" placeholder="Another input">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Date of Birth</label>
+                <input class="form-control" type="date" value="2011-08-19" id="example-date-input"  ng-model="artistForm.dob">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Email</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2"  ng-model="artistForm.email" placeholder="Another input">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Art Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" ng-model="artistForm.art.artName" placeholder="Another input">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Price</label>
+                <input class="form-control" type="number" value="42" id="example-number-input" ng-model="artistForm.art.price">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Art Description</label>
+                 <textarea class="form-control" id="exampleTextarea" rows="3" ng-model="artistForm.art.description"></textarea>
+              </div>
+              <div class="form-group row">
+                <div class="offset-sm-8 col-sm-4">
+                  <button type="submit" class="btn btn-primary" ng-click="artCtrl.saveArtist(artistForm)">Save</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-8">
+            <table>
+              <thead>
+                <tr>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Email</th>
+                  <th>Art</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="artist in artCtrl.artists">
+                  <td>{{artist.firstName}}</td>
+                  <td>{{artist.lastName}}</td>
+                  <td>{{artist.email}}</td>
+                  <td>
+                    <div ng-repeat="art in artist.art">
+                      <div class="art-name">{{art.artName}}</div>
+                      <div class="font-italic art-price">Price: {{art.price}}</div>
+                      <div class="font-italic art-description">{{art.description}}</div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
