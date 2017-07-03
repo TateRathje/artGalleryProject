@@ -1,0 +1,132 @@
+[
+  {
+    "firstName": "Imogene",
+    "lastName": "Fields",
+    "dob": "Wednesday, July 15, 2015 11:35 AM",
+    "email": "imogene.fields@gmail.com",
+    "art": [
+      {
+        "artName": "veniam",
+        "description": "Velit exercitation nostrud aute deserunt nostrud duis.",
+        "price": "$3,971.31"
+      }
+    ]
+  },
+  {
+    "firstName": "Cathryn",
+    "lastName": "Mayer",
+    "dob": "Thursday, July 17, 2014 11:10 AM",
+    "email": "cathryn.mayer@gmail.com",
+    "art": [
+      {
+        "artName": "sit",
+        "description": "Quis sunt velit ad ad eiusmod ut Lorem exercitation nostrud velit aute fugiat aliquip.",
+        "price": "$3,413.38"
+      }
+    ]
+  },
+  {
+    "firstName": "Walsh",
+    "lastName": "Dunlap",
+    "dob": "Sunday, June 25, 2017 1:25 PM",
+    "email": "walsh.dunlap@gmail.com",
+    "art": [
+      {
+        "artName": "ad",
+        "description": "Amet consectetur nulla amet ea.",
+        "price": "$2,511.32"
+      }
+    ]
+  },
+  {
+    "firstName": "Dana",
+    "lastName": "Stevenson",
+    "dob": "Tuesday, June 9, 2015 3:10 AM",
+    "email": "dana.stevenson@gmail.com",
+    "art": [
+      {
+        "artName": "do",
+        "description": "Quis Lorem ex qui ullamco.",
+        "price": "$1,463.56"
+      }
+    ]
+  },
+  {
+    "firstName": "Chandler",
+    "lastName": "Meyers",
+    "dob": "Thursday, February 16, 2017 4:39 PM",
+    "email": "chandler.meyers@gmail.com",
+    "art": [
+      {
+        "artName": "occaecat",
+        "description": "Qui nisi minim incididunt in est cillum magna occaecat est.",
+        "price": "$2,780.43"
+      }
+    ]
+  },
+  {
+    "firstName": "Talley",
+    "lastName": "Booker",
+    "dob": "Sunday, April 2, 2017 6:54 PM",
+    "email": "talley.booker@gmail.com",
+    "art": [
+      {
+        "artName": "et",
+        "description": "Minim aliqua excepteur cillum non.",
+        "price": "$2,008.77"
+      }
+    ]
+  },
+  {
+    "firstName": "Marissa",
+    "lastName": "Lindsey",
+    "dob": "Friday, May 16, 2014 2:16 PM",
+    "email": "marissa.lindsey@gmail.com",
+    "art": [
+      {
+        "artName": "fugiat",
+        "description": "Ut eiusmod occaecat dolor elit dolore ullamco culpa est.",
+        "price": "$3,103.03"
+      }
+    ]
+  },
+  {
+    "firstName": "Downs",
+    "lastName": "Hill",
+    "dob": "Monday, September 5, 2016 11:26 PM",
+    "email": "downs.hill@gmail.com",
+    "art": [
+      {
+        "artName": "voluptate",
+        "description": "Ex tempor esse id consectetur mollit nulla consequat.",
+        "price": "$2,674.05"
+      }
+    ]
+  },
+  {
+    "firstName": "Navarro",
+    "lastName": "Perry",
+    "dob": "Saturday, April 9, 2016 1:49 PM",
+    "email": "navarro.perry@gmail.com",
+    "art": [
+      {
+        "artName": "do",
+        "description": "Ea eu mollit reprehenderit elit in cillum mollit non fugiat occaecat ex exercitation.",
+        "price": "$3,399.61"
+      }
+    ]
+  },
+  {
+    "firstName": "Patrice",
+    "lastName": "Hess",
+    "dob": "Tuesday, April 22, 2014 2:39 AM",
+    "email": "patrice.hess@gmail.com",
+    "art": [
+      {
+        "artName": "fugiat",
+        "description": "Et nulla id sint eu excepteur.",
+        "price": "$3,749.01"
+      }
+    ]
+  }
+]
