@@ -1,0 +1,28 @@
+{
+  "name": "artgalleryproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TateRathje/artGalleryProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TateRathje/artGalleryProject/issues"
+  },
+  "homepage": "https://github.com/TateRathje/artGalleryProject#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.0.0"
+  }
+}

@@ -11,5 +11,7 @@ angular.module('artGallery')
 	this.saveArtist = function(artist) {
 		debugger;
 		self.artists.unshift(artistForm);
+		var filteredArtist = self.artists
+		artGalleryService.saveArtist(filteredArtist);
 	};
 });
