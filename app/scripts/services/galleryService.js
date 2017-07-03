@@ -8,7 +8,6 @@ function GalleryService ($http, $q) {
   };
 
   this.deleteArtist = function(artist) {
-    debugger;
   	if (!artist._id) {
   		return $q.resolve();
   	}
@@ -18,7 +17,6 @@ function GalleryService ($http, $q) {
   };
 
   this.updateArtist = function(artist, index) {
-    debugger;
     var artist = artist[index];
     if (!artist._id) {
       return $q.resolve();
@@ -34,10 +32,8 @@ function GalleryService ($http, $q) {
   	artists.forEach(function(artist) {
   		var request;
   		if (!artist._id) {
-        debugger;
   			request = $http.post('/api/artists', artist);
   		} else {
-        debugger;
   			request = $http.put('/api/artists' + artist._id, artist).then(function(result) {
   				artist = result.data.artist;
   				return artist;
