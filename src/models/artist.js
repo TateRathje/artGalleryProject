@@ -12,6 +12,7 @@ var artistSchema = new mongoose.Schema({
 	firstName: String,
 	lastName: String,
 	dob: { type: Date },
+	email: String,
 	art: [artSchema]
 });
 

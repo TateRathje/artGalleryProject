@@ -2,7 +2,7 @@
 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/artgallery', function(err) {
+mongoose.connect('mongodb://localhost:27017/artgallery', function(err) {
 	if (err) {
 		console.log('Failed connecting to mongoDB!');
 	} else {

@@ -1,12 +1,12 @@
-'use strict';
+// 'use strict';
 
-var Artist = require('.models/artist');
+// var Artist = require('.models/artist');
 
-var artists = [
+// var artists = [
 
 
-];
+// ];
 
-artists.forEach(function(artist, index) {
+// artists.forEach(function(artist, index) {
 	
-});
+// });

@@ -15,6 +15,7 @@ router.get('/artists', function(req, res) {
 });
 
 router.post('/artists', function(req, res) {
+	debugger;
 	var artist = req.body;
 	Artist.create(artist, function(err, artist) {
 		if (err) {
@@ -25,6 +26,7 @@ router.post('/artists', function(req, res) {
 });
 
 router.put('/artists/:id', function(req, res) {
+	debugger;
 	var id = req.params.id;
 	var artist = req.body;
 	if (artist && artist._id !== id) {

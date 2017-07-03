@@ -109,6 +109,16 @@ table {
     border: 1px solid #eceeef !important;
 }
 
+.close {
+    float: inherit;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1;
+    color: #f7f7f9;
+    text-shadow: 0 1px 0 #fff;
+    opacity: inherit;
+}
+
 /* Padding for spacing */
 
 .inner {
