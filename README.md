@@ -9,4 +9,22 @@ A QBI interview project.
 
 ## Getting up and running on local machine
 
+* `npm install` -g nodemon
+* `npm install` to resolve dependencies
+
+* `mongod` to start mongoDB database in backgound
+* `nodemon` to get server running on http://localhost:3000/ 
+
+## Things still todo 
+
+1. Finish proper form validation.
+2. Properly fix editing artists.
+3. Setup proper seed database. 
+3. Finish setting up express backend on Heroku. 
+
+
+
+
+
+
 
